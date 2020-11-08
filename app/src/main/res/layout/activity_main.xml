@@ -24,7 +24,7 @@
 
 
     <ImageView
-        android:id="@+id/imageView1"
+        android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="470dp"
         android:background="@drawable/pet2"
