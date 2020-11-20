@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:layout_marginBottom="10dp"
+        />
+
+    <CheckBox
+        android:id="@+id/checkc1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="yapay_zeka" />
+
+    <CheckBox
+        android:id="@+id/checkc2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="mobil_uygulama" />
+
+    <CheckBox
+        android:id="@+id/checkc3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="tasar_m_ve_animasyon" />
+    <CheckBox
+        android:id="@+id/checkc4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mühendislik uygulamaları" />
+
+    <CheckBox
+        android:id="@+id/checkc5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Betik Diller" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/textview"
+        android:textSize="20dp"
+        />
+
+
+
+</LinearLayout>
