@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kullanıcı Giriş"
+        android:textSize="24dp"
+        android:textColor="#FF173E"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/textview1"
+   />
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/unnamed"
+        android:layout_margin="15dp" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/button1"
+            android:text="Yeni Kullanıcı"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="#3070FF"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/button2"
+            android:text="Kullanıcı Giriş"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="#50FF5A"
+
+
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button3"
+            android:text="Giriş Yap"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="#FF4653"
+
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
