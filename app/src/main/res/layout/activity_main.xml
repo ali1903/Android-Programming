@@ -6,66 +6,36 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:background="@drawable/arkaplan"
-    android:orientation="vertical">
+    android:orientation="horizontal">
 
 
 
-    <TextView
-        android:id="@+id/edittext1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="EVCİL HAYVAN GALERİSİ"
-        android:textColor="#FF36F4F4"
-        android:textSize="25dp"
-        android:paddingVertical="15dp"
-        android:textAlignment="center"
-        android:layout_margin="15dp"
-        />
+        android:id="@+id/ToastAc"
+        android:background="@color/colorPrimary"
+        android:textSize="22dp"
+        android:layout_weight="1"
+        android:text="Buton1">
 
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="470dp"
-        android:background="@drawable/pet2"
-        android:layout_marginBottom="20dp"
+    </Button>
 
-       />
-
-    <LinearLayout
+    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:id="@+id/AlertAc"
+        android:background="@color/colorAccent"
+        android:textSize="22dp"
+        android:layout_weight="1"
+        android:text="Buton2">
 
-
-        <Button
-            android:id="@+id/button1"
-            android:layout_weight="1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="15dp"
-            android:background="@drawable/editbutton1"
-            android:text="Before" />
-
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_margin="15dp"
-            android:background="@drawable/editbutton2"
-            android:text="Random" />
-
-        <Button
-            android:id="@+id/button3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_margin="15dp"
-            android:background="@drawable/editbutton3"
-            android:text="After" />
-
-
-    </LinearLayout>
+    </Button>
 
 </LinearLayout>
+
