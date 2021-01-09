@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 degistir(1);
             }
         });
@@ -91,7 +92,7 @@ public class MainActivity extends AppCompatActivity {
         else if (sayi==9){
             img.setImageResource(R.drawable.pet10);
         }
-        else {
+        else if(sayi==10){
             img.setImageResource(R.drawable.pet11);
         }
 

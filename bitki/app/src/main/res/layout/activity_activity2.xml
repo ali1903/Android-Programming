@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity2"
+    android:background="@color/colorAccent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KALATYA"
+        android:textStyle="bold"
+        android:textSize="32sp"
+        android:layout_gravity="center"
+        android:background="#E91E63"
+        android:layout_marginVertical="10dp"
+        >
+
+    </TextView>
+
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="320dp"
+        android:layout_gravity="center"
+        android:background="@drawable/kalatya"
+        android:maxWidth="300dp"
+        android:maxHeight="300dp">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1- Zamia çok su tüketmez,Eğer saksı altında Çok fazla su biriktirse ,
+alt yapraklar sarıya dönebilir bu yüzden saksınızın altında su birikmediğinden emin olunuz.
+Kışın, toprak iki ila dört hafta boyunca kuru olabilir.
+Yaz aylarında bir hafta yeterlidir."
+        android:textSize="22sp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="10dp"
+        android:background="#C1C165">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ONCEKİ"
+            android:textSize="24sp"
+            android:id="@+id/btnOnceki"
+            android:background="@color/colorPrimary"
+            >
+
+        </Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sonraki"
+            android:textSize="24sp"
+            android:layout_marginLeft="40dp"
+            android:id="@+id/btnSonraki"
+            android:background="#D3C75C">
+
+        </Button>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
